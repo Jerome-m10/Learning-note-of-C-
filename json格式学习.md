@@ -10,4 +10,5 @@ json可以记录四种常规的类型，字符串，数组，布尔型，null
 
 从json中学到的一些东西
 json数组也是一种可迭代数组，所以可以用for（declaration:range）来访问所有内容
+json.dump()是将所有的json变量字符化，然后就可以以字符形式输出
 要求range必须得要有.begin().end()才能访问
